@@ -324,5 +324,30 @@ main::after {
   float: right;
   line-height: 15px;
 }
+.footer-container .social .social-icons li{
+  display: inline-block;
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .1);
+  position: relative;
+}
+.footer-container .social .social-icons li:hover {
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 0 3px  black;
+  transition: 0.3s;
+}
+.footer-container .social .social-icons li i{
+  color: rgba(0, 0, 0, .35);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer-container .social .social-icons li i:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, .2);
+}
 /* End Footer Social & Legal Section */
 /*** END FOOTER Design ***/
