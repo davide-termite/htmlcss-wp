@@ -6,7 +6,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 /* End Reset Rules */
-
 /* Body & Wrapper Rules */
 body {
   background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
@@ -19,7 +18,6 @@ body {
 /* End Body & Wrapper Rules*/
 
 /*** HEADER Design ***/
-
 /* Hero Design */
 .header-container {
   width: 100%;
@@ -58,7 +56,6 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 /* End Hero Design */
-
 /* Navbar Design */
 .header-container .navbar {
   height: 50px;
@@ -99,9 +96,9 @@ body {
   color: white;
 }
 /* End Navbar Design */
-
 /*** END HEADER Design ***/
 
+/*** MAIN Design ***/
 /* Main General Design Rules */
 main h2 {
   font-weight: 400;
@@ -133,7 +130,7 @@ main a:hover{
 }
 .center {
   width: 45%;
-  margin: 2%;
+  margin: 1% 2%;
 }
 .right {
   width: 28%;
@@ -161,7 +158,53 @@ main::after {
 /* End Left Column Content */
 
 /* Central Column Content */
-
+.content-center div {
+  width: 100%;
+  background-color: white;
+}
+.content-center .post{
+  background: white;
+  padding: 20px;
+}
+.content-center .post .post-title h1 a{
+  color: #504741;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
+}
+.content-center .post .post-title h1 a:hover{
+  color: #537A05;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
+  transition: 0.3s;
+}
+.content-center .post .post-title .post-details .post-date i, h3{
+  display: inline-block;
+  vertical-align: center;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 200;
+}
+.content-center .post .post-title .post-details .post-comments i, h3{
+  display: inline-block;
+  vertical-align: center;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 200;
+}
+.content-center .post .post-image img{
+  max-width: 100%;
+  padding: 10px 0;
+}
+.content-center .post .post-text p{
+  color: #999999;
+  font-size: 15px;
+  padding: 20px 0;
+}
+.content-center .post .post-categories {
+  background-color: #f9f9f9;
+}
+.content-center .post .post-categories *{
+  display: inline-block;
+  padding: 2px;
+}
 /* End Central Column Content */
 
 /* Right Column Content */
@@ -203,6 +246,9 @@ main::after {
   font-size: 20px;
 }
 /* End Right Column Content */
+/*** END MAIN Design ***/
 
+/*** FOOTER Design ***/
 /* Footer Design */
 /* End Footer Design */
+/*** END FOOTER Design ***/
