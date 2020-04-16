@@ -102,7 +102,7 @@ body {
 
 /*** END HEADER Design ***/
 
-/* Main container Design */
+/* Main General Design Rules */
 main h2 {
   font-weight: 400;
   padding: 10px;
@@ -115,44 +115,35 @@ main li {
 main a{
   text-decoration: none;
   color: #85C408;
-
-}
-main li:hover {
-  background-color: #F5F5F5;
-  border-top: 1px solid #A6A6A6;
-  transition: 0.3s;
 }
 main a:hover{
   text-decoration: underline;
   color: #537A05;
   transition: 0.3s;
 }
+/* End Main General Design Rules */
+
+/* Main Layout Rules */
 .col {
   float: left;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 .left {
   width: 23%;
-  /* background: white; */
 }
 .center {
-  width: 40%;
-  /* height: 10vh;
-  background: white; */
+  width: 45%;
   margin: 2%;
 }
 .right {
-  width: 33%;
-  /* height: 10vh; */
-  background: white;
+  width: 28%;
 }
-
 main::after {
   content: "";
   display: table;
   clear: both;
 }
-/* End Main container Design */
+/* End Main Layout Rules */
 
 /* Left Column Content */
 .content-left div{
@@ -161,30 +152,56 @@ main::after {
   padding: 20px;
   margin: 5% 0;
 }
-/* .content-left .pages h2 {
-  font-weight: 400;
-  padding: 10px;
-} */
-/* .content-left .pages ul li {
-  list-style: none;
-  font-weight: 400;
-  padding: 10px;
-} */
-
-.content-left .archive {
-  width: 100%;
-  background-color: white;
-}
-.content-left .meta {
-  width: 100%;
-  background-color: white;
+.content-left li:hover {
+  background-color: #F5F5F5;
+  border-top: 1px solid #A6A6A6;
+  transition: 0.1s;
+  cursor: pointer;
 }
 /* End Left Column Content */
 
 /* Central Column Content */
+
 /* End Central Column Content */
 
 /* Right Column Content */
+.content-right div{
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin: 5% 0;
+}
+.content-right .searchbar input{
+  width: 72%;
+  background: rgba(0, 0, 0, 0.04);
+  color: #999999;
+  padding: 10px 5px;
+}
+.content-right .searchbar button{
+  width: 22%;
+  margin-left: 2%;
+  border-radius: 3px;
+  background-color: #504741;
+  color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.content-right .searchbar button:hover {
+  background-color: #2A2522;
+  transition: 0.3s;
+}
+.content-right .tags h2 {
+  padding: 10px 0;
+}
+.content-right .tags li{
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px;
+}
+#most-searched {
+  font-size: 20px;
+}
 /* End Right Column Content */
 
 /* Footer Design */
