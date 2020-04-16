@@ -1,0 +1,121 @@
+/* Reset Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+/* End Reset Rules */
+
+/* Body & Wrapper Rules */
+body {
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+.wrapper {
+  width: 90%;
+  margin: auto;
+  max-width: 1280px;
+}
+/* End Body & Wrapper Rules*/
+
+/*** HEADER Design ***/
+
+/* Hero Design */
+.header-container {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+}
+.hero {
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  border: 10px solid white;
+  position: relative;
+}
+.title {
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#headline {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  margin: 10px;
+}
+#sub-headline {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* End Hero Design */
+
+/* Navbar Design */
+.header-container .navbar {
+  height: 60px;
+  background: #504741;
+  position: relative;
+}
+.header-container .navbar .list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-container .navbar .list li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 18px;
+}
+.header-container .navbar .list li a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.4);
+}
+.header-container .navbar .list li:hover {
+  background-color: #302B28;
+  transition: 0.3s;
+}
+.header-container .navbar .list li:hover a{
+  color: rgba(255, 255,255, 1);
+  transition: 0.3s;
+}
+#selected {
+  background-color: #302B28;
+  color: white;
+}
+/* End Navbar Design */
+
+/*** END HEADER Design ***/
+
+/* Main container Design */
+.col {
+  float: left;
+
+}
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* End Main container Design */
+
+/* Right Column Content */
+/* End Right Column Content */
+
+/* Footer Design */
+/* End Footer Design */
