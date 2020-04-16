@@ -30,7 +30,7 @@ body {
   background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
   background-position: center;
   background-size: cover;
-  height: 240px;
+  height: 250px;
   border: 10px solid white;
   position: relative;
 }
@@ -42,7 +42,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-a {
+.title a {
   text-decoration: none;
   color: white;
 }
@@ -61,7 +61,7 @@ a {
 
 /* Navbar Design */
 .header-container .navbar {
-  height: 60px;
+  height: 50px;
   background: #504741;
   position: relative;
 }
@@ -80,7 +80,7 @@ a {
   font-weight: 400;
   cursor: pointer;
   font-size: 15px;
-  padding: 18px;
+  padding: 15px;
 }
 .header-container .navbar .list li a {
   text-decoration: none;
@@ -103,16 +103,86 @@ a {
 /*** END HEADER Design ***/
 
 /* Main container Design */
-.col {
-  float: left;
+main h2 {
+  font-weight: 400;
+  padding: 10px;
+}
+main li {
+  list-style: none;
+  font-weight: 400;
+  padding: 10px 20px;;
+}
+main a{
+  text-decoration: none;
+  color: #85C408;
 
 }
+main li:hover {
+  background-color: #F5F5F5;
+  border-top: 1px solid #A6A6A6;
+  transition: 0.3s;
+}
+main a:hover{
+  text-decoration: underline;
+  color: #537A05;
+  transition: 0.3s;
+}
+.col {
+  float: left;
+  margin-top: 2%;
+}
+.left {
+  width: 23%;
+  /* background: white; */
+}
+.center {
+  width: 40%;
+  /* height: 10vh;
+  background: white; */
+  margin: 2%;
+}
+.right {
+  width: 33%;
+  /* height: 10vh; */
+  background: white;
+}
+
 main::after {
   content: "";
   display: table;
   clear: both;
 }
 /* End Main container Design */
+
+/* Left Column Content */
+.content-left div{
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin: 5% 0;
+}
+/* .content-left .pages h2 {
+  font-weight: 400;
+  padding: 10px;
+} */
+/* .content-left .pages ul li {
+  list-style: none;
+  font-weight: 400;
+  padding: 10px;
+} */
+
+.content-left .archive {
+  width: 100%;
+  background-color: white;
+}
+.content-left .meta {
+  width: 100%;
+  background-color: white;
+}
+/* End Left Column Content */
+
+/* Central Column Content */
+/* End Central Column Content */
 
 /* Right Column Content */
 /* End Right Column Content */
