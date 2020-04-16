@@ -158,9 +158,12 @@ main::after {
 /* End Left Column Content */
 
 /* Central Column Content */
-.content-center div {
-  width: 100%;
-  background-color: white;
+.content-center {
+  background: white;
+}
+.content-center hr{
+  width: 80%;
+  margin: auto;
 }
 .content-center .post{
   background: white;
@@ -200,10 +203,13 @@ main::after {
 }
 .content-center .post .post-categories {
   background-color: #f9f9f9;
+  width: 90%;
+  margin: auto;
 }
 .content-center .post .post-categories *{
   display: inline-block;
   padding: 2px;
+  font-size: 12px;
 }
 /* End Central Column Content */
 
